@@ -30,11 +30,11 @@ One adds an overlay that shows the alt text on the image, the other dims images 
   <tr>
     <td>
       <img src="tweet_with_alt_text_shown.png" alt="Screenshot of a tweet with an image. At the top of the image, there's a black overlay with white text showing the alt text for the image.">
-      A tweet using [`add_alt_text_overlay.css`](add_alt_text_overlay.css)
+      A tweet using <a href="add_alt_text_overlay.css"><code>add_alt_text_overlay.css</code></a>
     </td>
     <td>
       <img src="tweet_without_alt_text_with_dimmed_image.png" alt="Screenshot of a tweet with an image.  The image has been heavily dimmed, so it's mostly white.">
-      A tweet using [`dim_media_without_alt_text.css`](dim_media_without_alt_text.css)
+      A tweet using <a href="dim_media_without_alt_text.css"><code>dim_media_without_alt_text.css</code></a>
     </td>
   </tr>
 </table>
