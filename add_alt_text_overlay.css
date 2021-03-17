@@ -8,7 +8,7 @@ div[data-testid="previewInterstitial"]:not([aria-label="Embedded video"]) {
 div[data-testid="tweetPhoto"]:not([aria-label="Image"]):after,
 div[data-testid="previewInterstitial"]:not([aria-label="Embedded video"]):after {
     content: attr(aria-label);
-    background: rgba(0,0,0,.75);
+    background: rgba(0, 0, 0, .75);
     color: #fff;
     padding: 10px;
     font-family: sans-serif;

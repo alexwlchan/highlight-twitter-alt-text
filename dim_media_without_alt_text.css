@@ -2,7 +2,7 @@
 div[aria-label="Image"],
 div[aria-label="Embedded video"] {
   border: 20px dashed #aaa;
-  width: 100%;
+  width:  100%;
   height: 100%;
   background: #fff;
   opacity: 0.15;
