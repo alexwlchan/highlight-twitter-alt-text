@@ -23,7 +23,7 @@ I didn't come up with this idea -- I saw some tweets from [@lunasorcery](https:/
 
 ## Tools
 
-First, I have a couple of CSS snippets that will highlight the presence/absence of alt text.
+I have a couple of CSS snippets that will highlight the presence/absence of alt text.
 One adds an overlay that shows the alt text on the image, the other dims images that don't have any:
 
 <table>
@@ -38,3 +38,16 @@ One adds an overlay that shows the alt text on the image, the other dims images 
     </td>
   </tr>
 </table>
+
+I include both of these snippets in my browser's custom stylesheet, so it applies everywhere on Twitter.
+
+If you want to go one step further, and completely ignore tweets that don't include alt text, look at [`dim_tweets_without_alt_text.js`](dim_tweets_without_alt_text.js).
+This includes a function that will hide all the inaccessible tweets on a timeline, so you can scroll past them quickly.
+
+Here's what that looks like in practice:
+
+<img src="thread_with_dimmed_tweet.png" alt="A thread with two tweets. Both tweets have a photo of a black cat; the first tweet is shown with an alt text overlay, the second is heavily dimmed, so it's practically illegible.">
+
+This JS is a prototype; I haven't added it to my browser yet.
+I wrote it after [a suggestion from Kate](https://twitter.com/thingskatedid/status/1371990357441835013), when I thought of a neat trick for how you'd do this.
+You need to run it in a loop, because new tweets get added to the page as you scroll, and you want the function to pick them up.
