@@ -23,13 +23,18 @@ I didn't come up with this idea -- I saw some tweets from [@lunasorcery](https:/
 
 ## Tools
 
+First, I have a couple of CSS snippets that will highlight the presence/absence of alt text.
+One adds an overlay that shows the alt text on the image, the other dims images that don't have any:
+
 <table>
   <tr>
     <td>
       <img src="tweet_with_alt_text_shown.png" alt="Screenshot of a tweet with an image. At the top of the image, there's a black overlay with white text showing the alt text for the image.">
+      A tweet using [`add_alt_text_overlay.css`](add_alt_text_overlay.css)
     </td>
     <td>
       <img src="tweet_without_alt_text_with_dimmed_image.png" alt="Screenshot of a tweet with an image.  The image has been heavily dimmed, so it's mostly white.">
+      A tweet using [`dim_media_without_alt_text.css`](dim_media_without_alt_text.css)
     </td>
   </tr>
 </table>

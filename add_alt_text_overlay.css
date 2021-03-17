@@ -1,0 +1,17 @@
+/** This snippet adds an overlay to images on Twitter, so the alt text
+  * (if there is any) is shown at the top of an image.
+  */
+div[data-testid="tweetPhoto"]:not([aria-label="Image"]),
+div[data-testid="previewInterstitial"]:not([aria-label="Embedded video"]) {
+    margin: 0 !important;
+}
+div[data-testid="tweetPhoto"]:not([aria-label="Image"]):after,
+div[data-testid="previewInterstitial"]:not([aria-label="Embedded video"]):after {
+    content: attr(aria-label);
+    background: rgba(0,0,0,.75);
+    color: #fff;
+    padding: 10px;
+    font-family: sans-serif;
+    line-height: 130%;
+    z-index: 1;
+}

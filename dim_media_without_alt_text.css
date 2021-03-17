@@ -1,0 +1,10 @@
+/** This snippet dims images on Twitter if they don't have any alt text. */
+div[aria-label="Image"],
+div[aria-label="Embedded video"] {
+  border: 20px dashed #aaa;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0.15;
+  margin: 0 !important;
+}
