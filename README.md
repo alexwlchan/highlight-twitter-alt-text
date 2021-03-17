@@ -17,7 +17,7 @@ This repo contains a couple of CSS and JavaScript snippets I use to make alt tex
 
 ## Inspiration
 
-I didn't come up with this idea -- I saw some tweets from [@lunasorcery](https://twitter.com/lunasorcery) and [@thingskatedid](https://twitter.com/thingskatedid) that put the idea in my head, and I created this GitHub repo so I had something I could easily link "here's how to highlight alt text on Twitter".
+I didn't come up with these ideas -- I saw some tweets from [@lunasorcery](https://twitter.com/lunasorcery) and [@thingskatedid](https://twitter.com/thingskatedid) that put the idea in my head, and I created this GitHub repo so I had something I could easily link "here's how to highlight alt text on Twitter".
 
 
 
