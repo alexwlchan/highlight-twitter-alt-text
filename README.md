@@ -23,4 +23,13 @@ I didn't come up with this idea -- I saw some tweets from [@lunasorcery](https:/
 
 ## Tools
 
-![Screenshot of a tweet with an image. At the top of the image, there's a black overlay with white text showing the alt text for the image.](tweet_with_alt_text_shown.png)
+<table>
+  <tr>
+    <td>
+      <img src="tweet_with_alt_text_shown.png" alt="Screenshot of a tweet with an image. At the top of the image, there's a black overlay with white text showing the alt text for the image.">
+    </td>
+    <td>
+      <img src="tweet_without_alt_text_with_dimmed_image.png" alt="Screenshot of a tweet with an image.  The image has been heavily dimmed, so it's mostly white.">
+    </td>
+  </tr>
+</table>
