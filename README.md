@@ -23,6 +23,8 @@ I didn't come up with these ideas -- I saw some tweets from [@lunasorcery](https
 
 ## Tools
 
+### Show alt text on hover with CSS
+
 I have a couple of CSS snippets that will highlight the presence/absence of alt text.
 One adds an overlay that shows the alt text on the image when you hover over the image, the other dims images that don't have any:
 
@@ -39,9 +41,11 @@ One adds an overlay that shows the alt text on the image when you hover over the
   </tr>
 </table>
 
-I include both of these snippets in my browser's custom stylesheet, so it applies everywhere on Twitter.
+I include both of these snippets in my browser's custom stylesheet on my desktop, so it applies everywhere on Twitter.
 
-If you want to go one step further, and completely ignore tweets that don't include alt text, look at [`dim_tweets_without_alt_text.js`](dim_tweets_without_alt_text.js).
+### Hide tweets that don't have alt text
+
+If you want to completely ignore tweets that don't include alt text, look at [`dim_tweets_without_alt_text.js`](dim_tweets_without_alt_text.js).
 This includes a function that will hide all the inaccessible tweets on a timeline, so you can scroll past them quickly.
 
 Here's what that looks like in practice:
@@ -51,3 +55,25 @@ Here's what that looks like in practice:
 This JS is a prototype; I haven't added it to my browser yet.
 I wrote it after [a suggestion from Kate](https://twitter.com/thingskatedid/status/1371990357441835013), when I thought of a neat trick for how you'd do this.
 You need to run it in a loop, because new tweets get added to the page as you scroll, and you want the function to pick them up.
+
+### Show alt text in a dialog box
+
+I mostly use Twitter on my phone, which doesn't have hover states or a particularly easy way to inject custom CSS -- but it does support [bookmarklets](https://en.wikipedia.org/wiki/Bookmarklet).
+I've written [a bookmarklet](show_alt_text_in_dialog.js) which displays a dialog box showing me the alt text in any images it can find:
+
+<table>
+  <tr>
+    <td>
+      <img src="screenshots/dialog_without_alt_text.png" alt="Screenshot of mobile web browser with a dialog box saying 'Alt text. Image 1: (no alt text). Image 2: (no alt text). Image 3: (no alt text).">
+      A tweet with no alt text using <a href="show_alt_text_in_dialog.js"><code>show_alt_text_in_dialog.js</code></a>
+    </td>
+    <td>
+      <img src="screenshots/dialog_without_alt_text.png" alt="Screenshot of mobile web browser with a dialog box saying 'Alt text. Image 1 … Image 2 … Image 3' followed by several sentences of description. There's a scroll bar showing the alert continues off the bottom.">
+      A tweet with alt text using <a href="show_alt_text_in_dialog.js"><code>show_alt_text_in_dialog.js</code></a>
+    </td>
+  </tr>
+</table>
+
+I designed this bookmarklet to work in Safari on iOS, but it should be possible to make work in other browsers.
+
+There's a bug where sometimes the alert doesn't fire -- reloading the page seems to fix it.
