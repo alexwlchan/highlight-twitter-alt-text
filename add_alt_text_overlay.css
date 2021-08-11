@@ -5,8 +5,10 @@ div[data-testid="tweetPhoto"]:not([aria-label="Image"]),
 div[data-testid="previewInterstitial"]:not([aria-label="Embedded video"]) {
     margin: 0 !important;
 }
-div[data-testid="tweetPhoto"]:not([aria-label="Image"]):after,
-div[data-testid="previewInterstitial"]:not([aria-label="Embedded video"]):after {
+
+/** If you want to see alt text all the time, remove :hover from these two rules */
+div[data-testid="tweetPhoto"]:hover:not([aria-label="Image"]):after,
+div[data-testid="previewInterstitial"]:hover:not([aria-label="Embedded video"]):after {
     content: attr(aria-label);
     background: rgba(0, 0, 0, .75);
     color: #fff;

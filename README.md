@@ -24,7 +24,7 @@ I didn't come up with these ideas -- I saw some tweets from [@lunasorcery](https
 ## Tools
 
 I have a couple of CSS snippets that will highlight the presence/absence of alt text.
-One adds an overlay that shows the alt text on the image, the other dims images that don't have any:
+One adds an overlay that shows the alt text on the image when you hover over the image, the other dims images that don't have any:
 
 <table>
   <tr>
