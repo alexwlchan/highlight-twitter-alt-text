@@ -68,7 +68,7 @@ I've written [a bookmarklet](show_alt_text_in_dialog.js) which displays a dialog
       A tweet with no alt text using <a href="show_alt_text_in_dialog.js"><code>show_alt_text_in_dialog.js</code></a>
     </td>
     <td>
-      <img src="screenshots/dialog_without_alt_text.png" alt="Screenshot of mobile web browser with a dialog box saying 'Alt text. Image 1 … Image 2 … Image 3' followed by several sentences of description. There's a scroll bar showing the alert continues off the bottom.">
+      <img src="screenshots/dialog_with_alt_text.png" alt="Screenshot of mobile web browser with a dialog box saying 'Alt text. Image 1 … Image 2 … Image 3' followed by several sentences of description. There's a scroll bar showing the alert continues off the bottom.">
       A tweet with alt text using <a href="show_alt_text_in_dialog.js"><code>show_alt_text_in_dialog.js</code></a>
     </td>
   </tr>
