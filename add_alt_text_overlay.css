@@ -16,4 +16,5 @@ div[data-testid="previewInterstitial"]:hover:not([aria-label="Embedded video"]):
     font-family: sans-serif;
     line-height: 130%;
     z-index: 1;
+    overflow: auto;
 }
